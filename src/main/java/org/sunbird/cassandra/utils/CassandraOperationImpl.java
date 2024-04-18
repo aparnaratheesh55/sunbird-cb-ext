@@ -185,7 +185,7 @@ public class CassandraOperationImpl implements CassandraOperation {
 					selectWhere.and(clause);
 
 				}
-				selectQuery.allowFiltering();
+//				selectQuery.allowFiltering();
 			}
 		}
 		return selectQuery;
